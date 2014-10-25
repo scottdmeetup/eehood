@@ -1,0 +1,42 @@
+body {
+ 	background-color: #F4F5F4;
+ 	font-family: 'Raleway', sans-serif;
+ }
+
+.header {
+ 	font-family: 'Amatic SC', cursive;
+ 	text-align: center;
+ 	padding-top: 70px
+ }
+
+.big-body {
+ 	margin: 0 auto 0 auto;
+ 	height: 400px;
+ 	width: 600px;
+ 	background-color: white;
+ }
+
+.big-body	img {
+ 	float: center;
+ }
+
+.menu ul {
+ 	list-style-type: none;
+ 	list-style-position: center;
+ }
+
+.menu li {
+ 	display: inline;
+ 	padding-left: 154px;
+ }
+
+ .footer {
+ 	float: bottom;
+ 	height: 150px;
+ 	background-color: #7ACC29;
+ 	color: white;
+ }
+
+ .footer ul {
+ 	list-style-type: none;
+ }
