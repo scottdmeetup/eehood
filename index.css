@@ -10,8 +10,8 @@ body {
  }
 
 .big-body {
-	padding: 10px 10px 10px 10px;
-	margin: 0 auto 0 auto;
+	padding: 20px 20px 50px 20px;
+	margin: 0 auto 20% auto;
  	height: 400px;
  	width: 600px;
  	background-color: white;
@@ -19,6 +19,11 @@ body {
 
 .big-body	img {
  	float: center;
+ }
+
+ .big-body:hover {
+ 	background-color: #E0FFC2;
+ 	opacity: .7;
  }
 
 .menu ul {
@@ -31,13 +36,24 @@ body {
  	padding-left: 154px;
  }
 
+ .menu li:hover {
+ 	opacity: .7;
+ 	color: #7ACC29;
+ }
+
+/*  THIS IS ALL GONE SO WHATEVER
+
  .footer {
  	float: bottom;
  	height: 150px;
- 	background-color: #7ACC29;
- 	color: white;
+ 	background-color: white;
+ 	color: #7ACC29;
+ 	margin: 0 0 0 0;
  }
 
  .footer ul {
  	list-style-type: none;
  }
+
+ */
+
