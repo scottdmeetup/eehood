@@ -1,12 +1,13 @@
 body {
  	background-color: #F4F5F4;
  	font-family: 'Raleway', sans-serif;
+ 	margin: 0 0 0 0;
  }
 
 .header {
  	font-family: 'Amatic SC', cursive;
  	text-align: center;
- 	padding-top: 70px
+ 	padding-top: 50px
  }
 
 .big-body {
@@ -15,7 +16,12 @@ body {
  	height: 400px;
  	width: 600px;
  	background-color: white;
+ 	text-align: center;
  }
+
+.big-body a {
+	text-decoration: none;
+}
 
 .big-body	img {
  	float: center;
@@ -24,6 +30,7 @@ body {
  .big-body:hover {
  	background-color: #E0FFC2;
  	opacity: .7;
+ 	text-decoration: none;
  }
 
 .menu ul {
@@ -35,6 +42,10 @@ body {
  	display: inline;
  	padding-left: 154px;
  }
+
+.menu a {
+	text-decoration: none;
+}
 
  .menu li:hover {
  	opacity: .7;
