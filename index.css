@@ -10,7 +10,8 @@ body {
  }
 
 .big-body {
- 	margin: 0 auto 0 auto;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto 0 auto;
  	height: 400px;
  	width: 600px;
  	background-color: white;
